@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="830f3b23-97ac-442e-9b05-9ca052b9c049" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/.idea/Spark_ALS_get_reco.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/derby.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/get_recommendation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/db.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/dbex.lck" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/log/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/log/log.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/log/log1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/log/logmirror.ctrl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/README_DO_NOT_TOUCH_FILES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c10.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c101.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c111.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c121.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c130.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c141.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c150.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c161.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c171.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c180.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c191.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c1f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c20.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c200.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c211.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c221.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c230.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c241.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c251.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c260.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c271.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c281.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c290.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c2f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c300.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c31.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c311.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c321.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c331.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c340.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c351.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c361.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c371.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c380.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c391.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c3f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c400.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c41.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c411.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c421.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c430.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c441.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c451.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c461.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c470.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c481.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c490.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c4f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c501.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c51.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c510.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c521.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c530.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c541.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c550.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c561.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c570.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c581.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c590.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c5f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c60.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c601.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c610.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c621.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c630.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c641.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c650.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c661.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c670.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c681.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c690.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6b0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6d0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c6f0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c701.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c71.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c711.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c721.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c731.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c741.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c751.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c761.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c771.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c781.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c791.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c7f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c801.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c81.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c811.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c821.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c831.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c840.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c851.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c860.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c871.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c880.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c891.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8a0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8c1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8e1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c8f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c90.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c901.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c911.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c920.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c931.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c940.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c951.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c960.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c971.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c981.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c990.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9a1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9b1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9c0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9d1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9e0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/c9f1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/ca01.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/ca1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/ca11.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/ca21.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/cb1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/cc0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/cd1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/ce1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/seg0/cf0.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../Spark_ALS_get_reco/metastore_db/service.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ratings_full" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ratings_full.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ratings_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ratings_train.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipes_final.npy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00000-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00001-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00002-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00003-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00004-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00005-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00006-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00007-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00008-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/.part-00009-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00000-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00001-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00002-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00003-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00004-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00005-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00006-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00007-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00008-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/itemFactors/part-00009-4d0baf9e-c880-4af2-bd4e-4a321a50f7e0-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00000-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00001-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00002-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00003-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00004-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00005-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00006-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00007-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00008-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/.part-00009-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet.crc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00000-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00001-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00002-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00003-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00004-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00005-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00006-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00007-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00008-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recommendation_model_complete/userFactors/part-00009-dc406fa6-c25c-4ae6-bebf-c700e48b83c7-c000.snappy.parquet" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../build_dataset" afterPath="$PROJECT_DIR$/../build_dataset" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/db.lck" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log2.dat" afterPath="$PROJECT_DIR$/metastore_db/log/log2.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recommendation_model_complete/metadata/.part-00000.crc" afterPath="$PROJECT_DIR$/recommendation_model_complete/metadata/.part-00000.crc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../FoodFacts/foodfacts/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FoodFacts/foodfacts/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MFALS_recipes/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../MFALS_recipes/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../MFALS_recipes/count_similarity.py" afterPath="$PROJECT_DIR$/../MFALS_recipes/count_similarity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../RecipesSimilarity/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../RecipesSimilarity/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../control_dataset/attempts.py" afterPath="$PROJECT_DIR$/../control_dataset/attempts.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../control_dataset/dataset2aws.py" afterPath="$PROJECT_DIR$/../control_dataset/dataset2aws.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Spark_ALS.py" afterPath="$PROJECT_DIR$/Spark_ALS.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recommendation_model_complete/metadata/part-00000" afterPath="$PROJECT_DIR$/recommendation_model_complete/metadata/part-00000" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../generate_model_flask/generate_model.py" afterPath="$PROJECT_DIR$/../generate_model_flask/generate_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../get_recommendation_flask/get_recommendation.py" afterPath="$PROJECT_DIR$/../get_recommendation_flask/get_recommendation.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spark_get_reco/.idea/spark_get_reco.iml" afterPath="$PROJECT_DIR$/../spark_get_reco/.idea/spark_get_reco.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../spark_get_reco/get_reco.py" afterPath="$PROJECT_DIR$/../spark_get_reco/get_reco.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Spark_ALS.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_train</find>
+      <find>RegressionEvaluator</find>
+      <find>sqlContext</find>
+      <find>ratings_values</find>
+      <find>ratings_full</find>
+      <find>ratings</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/attempts.py" />
+        <option value="$PROJECT_DIR$/../Spark_ALS_get_reco/get_recommendation.py" />
+        <option value="$PROJECT_DIR$/../control_dataset/determine_size.py" />
+        <option value="$PROJECT_DIR$/Spark_ALS.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="64" />
+    <option name="y" value="-11" />
+    <option name="width" value="1617" />
+    <option name="height" value="1062" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="faster_MF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faster_MF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="faster_MF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="faster_MF" type="462c0819:PsiDirectoryNode" />
+              <item name="recommendation_model_complete" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/FlaskApp" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.Spark_ALS">
+    <configuration name="Spark_ALS" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="faster_MF" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Spark_ALS.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="attempts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="faster_MF" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/attempts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="determine_size" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../control_dataset" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="faster_MF" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../control_dataset/determine_size.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="get_recommendation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Spark_ALS_get_reco" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="faster_MF" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Spark_ALS_get_reco/get_recommendation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.Spark_ALS" />
+      <item index="1" class="java.lang.String" itemvalue="Python.attempts" />
+      <item index="2" class="java.lang.String" itemvalue="Python.get_recommendation" />
+      <item index="3" class="java.lang.String" itemvalue="Python.determine_size" />
+    </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.Spark_ALS" />
+        <item index="1" class="java.lang.String" itemvalue="Python.determine_size" />
+        <item index="2" class="java.lang.String" itemvalue="Python.get_recommendation" />
+        <item index="3" class="java.lang.String" itemvalue="Python.attempts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830f3b23-97ac-442e-9b05-9ca052b9c049" name="Default" comment="" />
+      <created>1504518821776</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1504518821776</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="-11" width="1617" height="1062" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19566603" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41513515" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24984066" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40216216" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="15" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1206">
+          <caret line="77" column="35" lean-forward="false" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../control_dataset/determine_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="116" column="106" lean-forward="false" selection-start-line="116" selection-start-column="106" selection-end-line="116" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attempts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/attempts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Spark_ALS_get_reco/get_recommendation.py" />
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/pyrebase/pyrebase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../control_dataset/determine_size.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spark_ALS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="59" column="21" lean-forward="false" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
